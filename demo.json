@@ -1,0 +1,23 @@
+[
+  {
+    "name": "pippo",
+    "surname": "rossi",
+    "dob": "2010",
+    "grade": "7",
+    "teacher": "pluto"
+  },
+  {
+    "name": "paperino",
+    "surname": "bianchi",
+    "dob": "2012",
+    "grade": "10",
+    "teacher": "pluto"
+  },
+  {
+    "name": "topolino",
+    "surname": "verdi",
+    "dob": "2000",
+    "grade": "9",
+    "teacher": "paperone"
+  }
+]
