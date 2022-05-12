@@ -1,6 +1,6 @@
 
 const fs = require('fs');
-const myArgs = process.argv.slice(2);
+const myArgs = process.argv.slice(2); ///arggv mi da l'array di ciò che ha scritto l'utente in console
 
 if (myArgs[0] === undefined) {
   console.error('mi serve il file di input')
