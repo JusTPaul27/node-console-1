@@ -31,3 +31,14 @@ if (occurrence >= 0) {
 const report = textUtlities.createReportString(fileData, searchWord, charNumber, noSpacesCharNumber, wordNumber, occurrence);
 
 inputOutput.writeReportinFile(outputUrl, report);
+
+
+const contenitore = new Map() ///// una mappa è come un oggetto
+
+contenitore.set(3, 'ciao')
+contenitore.get(3)
+contenitore.set('33 trentini', 42);
+console.log(contenitore.get('33 trentini'));
+console.log(contenitore.keys());
+console.log(contenitore.values());
+
