@@ -24,3 +24,5 @@ function getOptionalArgumentWithIndex(index) {
 exports.getArgumentOrExitWithErrorAndIndex = getArgumentOrExitWithErrorAndIndex;
 exports.getConsoleArguments = getConsoleArguments;
 exports.getOptionalArgumentWithIndex = getOptionalArgumentWithIndex;
+
+

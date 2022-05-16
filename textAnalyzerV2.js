@@ -10,6 +10,9 @@ let searchWord = consoleUtilities.getOptionalArgumentWithIndex(2);
 
 let fileData = inputOutput.readFileDataWithUrl(inputUrl);
 
+const frequencyData = textUtlities.createFrequencyData(fileData);
+
+
 const charNumber = textUtlities.getCharNumber(fileData)
 console.log('numero di caratteri: ', charNumber);
 
@@ -28,7 +31,7 @@ if (occurrence >= 0) {
   console.log('la parola "' + searchWord + '" appare ' + occurrence + (occurrence === 1 ? ' volta' : ' volte'));
 }
 
-const report = textUtlities.createReportString(fileData, searchWord, charNumber, noSpacesCharNumber, wordNumber, occurrence);
+const report = textUtlities.createReportString(fileData, searchWord, charNumber, noSpacesCharNumber, wordNumber, occurrence, frequencyData);
 
 inputOutput.writeReportinFile(outputUrl, report);
 
@@ -41,4 +44,6 @@ contenitore.set('33 trentini', 42);
 console.log(contenitore.get('33 trentini'));
 console.log(contenitore.keys());
 console.log(contenitore.values());
+
+
 
